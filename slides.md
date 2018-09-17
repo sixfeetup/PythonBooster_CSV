@@ -166,3 +166,4 @@ with open('example.csv', newline='') as csvfile:
 * http://pandas.pydata.org/pandas-docs/stable/10min.html
 * https://jupyter.org
 * https://matplotlib.org/
+* https://openpyxl.readthedocs.io/en/stable/
