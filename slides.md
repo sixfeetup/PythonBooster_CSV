@@ -1,4 +1,4 @@
-theme: IndyPy
+theme: Next, 8
 autoscale: true
 footer: Python Booster by Six Feet Up
 
@@ -106,7 +106,7 @@ with open('file.txt', newline='') as f:
 
 # Seek and You Shall Find
 
-^ If you use the reader to iterate over all the lines of the file you will have exhusted the contents of the file
+^ If you use the reader to iterate over all the lines of the file you will have exhausted the contents of the file
 ^ Seek back to 0 to start over without re-opening
 ^ Comes in handy later when you need to Sniff the file, example later
 
@@ -181,7 +181,7 @@ with open('example.csv', newline='') as csvfile:
 
 ---
 
-# Join the IndyPy Tribe
+# [fit] Join the IndyPy Tribe
 ![right fit](/Users/calvin/Dropbox \(Six Feet Up\)/Meetups/IndyPy/IndyPy Logos/Full Color/IndyPy-logo-large-nobackground.png)
 
 * IndyPy Mixer -- Second Tuesday
