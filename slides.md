@@ -1,21 +1,32 @@
 theme: IndyPy
 autoscale: true
-footer: Rolls-Royce ┉  September 2018 Python and CSV ┉  Six Feet Up
+footer: Python Booster by Six Feet Up
 
 [.slidenumbers: false ]
 [.footer: ]
 
 ![](https://c1.staticflickr.com/1/59/178848768_349eda144f_o.jpg)
 
-### **Rolls-Royce** September 2018
-### Lunch and Learn
+## Python Booster
 
 # [fit] Python and CSV
 
-#### Calvin Hendryx-Parker
-#### [Six Feet Up](http://www.sixfeetup.com)
+### Calvin Hendryx-Parker, CTO
+### [Six Feet Up](http://www.sixfeetup.com)
 
 ^ https://www.flickr.com/photos/pinkmoose/178848768
+
+---
+[.footer: ]
+
+# About Six Feet Up
+![fit](https://sixfeetup.com/company/sixielife-1.jpg)
+
+* 20 Years in Business
+* Python and Cloud Consulting
+* Planning, Development, Orchestration, Training
+
+More info at <https://sixfeetup.com>
 
 ---
 
@@ -52,7 +63,7 @@ footer: Rolls-Royce ┉  September 2018 Python and CSV ┉  Six Feet Up
 
 ---
 
-# Context Managers and File-like Things
+# [fit] Context Managers and File-like Things
 
 ```python
 with open('file.txt') as f:
@@ -167,3 +178,27 @@ with open('example.csv', newline='') as csvfile:
 * https://jupyter.org
 * https://matplotlib.org/
 * https://openpyxl.readthedocs.io/en/stable/
+
+---
+
+# Join the IndyPy Tribe
+![right fit](/Users/calvin/Dropbox \(Six Feet Up\)/Meetups/IndyPy/IndyPy Logos/Full Color/IndyPy-logo-large-nobackground.png)
+
+* IndyPy Mixer -- Second Tuesday
+* IndyPy Bytes -- Fourth Tuesday
+* IndyPy Conf 
+  * March 22nd
+  * June 6th, 7th
+  * October 11
+
+More info at <https://indypy.org>
+
+---
+
+# **Questions?**
+![](https://c1.staticflickr.com/1/55/185508448_7f247723f5_o.jpg)
+
+### _<calvin@sixfeetup.com>_
+### _[@calvinhp](https://twitter.com/calvinhp)_
+or 
+### _<doug@sixfeetup.com>_
