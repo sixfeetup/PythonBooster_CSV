@@ -9,20 +9,30 @@
 
 ## Getting Started
 
-Create a virtual env and install all of the dependancies to run the Notebooks in this repository.
+Build the container and run it locally
 
-```
-$ virtualenv venv
-$ source venv/bin/activate
-(venv) $ pip install -r requirements.txt
+```console
+$ docker build -t pythonbooster_csv .
 ```
 
-## Running the Notebooks
+Start up the container in the foreground. Once running, Jupyter will output to
+`stdout` the URL to access the notebook.
 
-Activate your `virtualenv` and then run the notebook server.
-
+```console
+$ docker run -p 8888:8888 --name pythonbooster_csv pythonbooster_csv
 ```
-$ source venv/bin/activate
-(venv) $ jupyter notebook
+
+Use `ctrl-c` to stop the running notebook and the following command to start
+it back up again.
+
+```console
+$ docker start -a pythonbooster_csv
+```
+
+Once you are done playing with the notebook and want to throw away the work
+and container, use the following command.
+
+```console
+$ docker rm pythonbooster_csv
 ```
 
