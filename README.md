@@ -6,6 +6,15 @@
 [Six Feet Up](http://www.sixfeetup.com)
 
  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+ 
+## Overview
+
+This repository contains some sample code used during our Python Booster session
+to cover the basics of using the CSV module in Python.
+
+If you run the Dockerized version of the Jupyter Notebooks below, please note
+that your changes to the Notebook will not be saved back to your working
+directory.
 
 ## Getting Started
 
@@ -36,3 +45,23 @@ and container, use the following command.
 $ docker rm pythonbooster_csv
 ```
 
+## PyCharm Notes
+
+You will need to create a Run Configuration either by clicking on the double 
+green arrow with the `Dockerfile` open and selecting "New Run Configuration" or
+by going to the "Run" menu and selecting the "Edit Configurations..." option.
+
+Click the plus to add a new "Docker > Dockerfile" configuration.
+  
+Configure the Image tag, Container name and the Bind ports.
+
+![](images/PyCharmRunConfig.png)
+
+Once that is setup, you can run this configuration or click the double green 
+arrow to run/build the `Dockerfile`.
+
+**Note:** PyCharm does not support running the Notebook files using a remote 
+interpreter as of 2019.3, stay tuned!
+
+The Services panel should show your container running and also show the URL to
+access the running Notebooks from your browser.
