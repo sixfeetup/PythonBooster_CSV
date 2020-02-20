@@ -55,7 +55,7 @@ Click the plus to add a new "Docker > Dockerfile" configuration.
   
 Configure the Image tag, Container name and the Bind ports.
 
-![](images/PyCharmRunConfig.png)
+![PyCharm Run Configuration Window](https://raw.githubusercontent.com/sixfeetup/PythonBooster_CSV/master/images/PyCharmRunConfig.png)
 
 Once that is setup, you can run this configuration or click the double green 
 arrow to run/build the `Dockerfile`.
