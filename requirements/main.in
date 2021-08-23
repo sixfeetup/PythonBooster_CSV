@@ -1,5 +1,5 @@
 jupyter==1.0.0
-jupyterlab==2.1.5
+jupyterlab==2.2.10
 matplotlib==3.2.2
 mimesis==4.0.0
 openpyxl==3.0.4
